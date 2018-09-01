@@ -1,0 +1,36 @@
+{
+  "name": "prodigy.js",
+  "version": "0.0.1",
+  "description": "Framework on top of Web Audio Api for creation electronic musical instruments in modern web applications",
+  "main": "scr/prodigy.js",
+  "scripts": {
+    "webpack": "webpack -p --env.NODE_ENV=production --mode=production",
+    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js"
+  },
+  "keywords": [
+    "web",
+    "audio",
+    "api",
+    "music",
+    "synth"
+  ],
+  "author": "Denis Viklov",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "chai": "^4.1.2",
+    "karma": "^3.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^5.2.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "karma-webpack": "^3.0.1"
+  }
+}
