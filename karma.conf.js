@@ -1,15 +1,9 @@
 module.exports = function(config) {
   config.set({
     frameworks: ['mocha', 'chai'],
-    preprocessors: {
-      'src/*.js': ['webpack'],
-      'test/*.js': ['webpack']
-    },
-    webpack: {
-      mode: 'production'
-    },
-    files: ['test/**/*.js'],
-    reporters: ['progress'],
+
+    files: ['test/**/*.js', 'src/**/*.js'],
+    reporters: ['progress', 'coverage'],
     port: 9876,  // karma web server port
     colors: true,
     logLevel: config.LOG_INFO,
@@ -19,3 +13,14 @@ module.exports = function(config) {
     concurrency: Infinity
   })
 }
+/* 
+    preprocessors: {
+      'src/*.js': ['webpack']
+    },
+    webpack: {
+      mode: 'production',
+      output: {
+        filename: '[name]'
+       }
+    },
+*/

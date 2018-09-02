@@ -41,7 +41,7 @@ class Oscillator {
 }
 
 
-class Synth {
+class Rack {
   constructor (audioCtx) {
     this.audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)()
     this.oscillators = []
@@ -55,12 +55,12 @@ class Synth {
     }
   }
 
-  createOsc(name, freq, waveForm, detune) {
+  addOsc(name, freq, waveForm, detune) {
     let oscillator = new Oscillator(name, freq, waveForm, detune, this.audioCtx)
     this.oscillators.push(oscillator.create())
   }
 
-  setFreq(name, val) {
+  setOscFreq(name, val) {
     let oscillator = this.getOsc(name)
     oscillator.setFreq(val)
   }
@@ -81,5 +81,5 @@ class Synth {
   }
 }
 
-//export default Synth;
-module.exports = Synth;
+//export default Rack;
+//module.exports = Synth;
