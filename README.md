@@ -1,4 +1,4 @@
-# Prodigy.js
+# Prodigy.js [![Build Status](https://travis-ci.org/denisviklov/prodigyjs.svg?branch=master)](https://travis-ci.org/denisviklov/prodigyjs)
 
 Audio framework on pure JavaScript
 
