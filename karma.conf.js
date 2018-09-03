@@ -1,7 +1,9 @@
 module.exports = function(config) {
   config.set({
     frameworks: ['mocha', 'chai'],
-
+    preprocessors: {
+      'src/**/*.js': ['coverage']
+    },
     files: ['test/**/*.js', 'src/**/*.js'],
     reporters: ['progress', 'coverage'],
     port: 9876,  // karma web server port
