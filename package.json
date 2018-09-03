@@ -1,7 +1,7 @@
 {
   "name": "prodigy.js",
   "version": "0.0.1",
-  "description": "Framework on top of Web Audio Api for creation electronic musical instruments in modern web applications",
+  "description": "Framework on top of Web Audio Api for creation of electronic musical instruments in modern web applications",
   "main": "scr/prodigy.js",
   "scripts": {
     "webpack": "webpack -p --env.NODE_ENV=production --mode=production",
