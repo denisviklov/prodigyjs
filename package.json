@@ -14,7 +14,15 @@
     "music",
     "synth"
   ],
-  "author": "Denis Viklov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denisviklov/prodigyjs.git"
+  },
+  "homepage": "https://github.com/denisviklov/prodigyjs",
+  "author": "Denis Viklov <denis.viklov@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/denisviklov/prodigyjs/issues"
+  },
   "license": "BSD-2-Clause",
   "devDependencies": {
     "@babel/core": "^7.0.0",
