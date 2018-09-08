@@ -1,3 +1,13 @@
+class Envelope {
+  constructor(name, attack, sustain, decay){
+    this.name = name
+    this.attack = attack
+    this.sustain = sustain
+    this.decay = decay
+  }
+}
+
+
 class Oscillator {
   constructor(name, freq, waveForm, detune, audioCtx) {
     this.name = name
