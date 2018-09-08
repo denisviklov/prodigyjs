@@ -1,4 +1,4 @@
-# Prodigy.js [![Build Status](https://travis-ci.org/denisviklov/prodigyjs.svg?branch=master)](https://travis-ci.org/denisviklov/prodigyjs)
+# Prodigy.js [![Build Status](https://travis-ci.org/denisviklov/prodigyjs.svg?branch=master)](https://travis-ci.org/denisviklov/prodigyjs) [![Coverage Status](https://coveralls.io/repos/github/denisviklov/prodigyjs/badge.svg)](https://coveralls.io/github/denisviklov/prodigyjs)
 
 Audio framework on pure JavaScript
 
